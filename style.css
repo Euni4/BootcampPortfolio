@@ -140,11 +140,7 @@ body {
     padding: 0;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .content {
     width: 50%;
@@ -152,13 +148,14 @@ body {
 }
 
 .image {
-    width: 50%;
+    width: 250px;
     text-align: center;
 }
 
 .image img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 body {
     font-family: Arial, sans-serif;
@@ -168,14 +165,30 @@ body {
 
 .container {
     width: 50%;
-    margin: 50px auto;
+    margin: 100px auto 50px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactContainer {
+    width: 30%;
+    margin: 100px auto 50px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 h2 {
     text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
 }
 
 .form-group {
@@ -191,7 +204,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 100%;
+    width: 96.8%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
