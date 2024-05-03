@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 9;
 }
@@ -97,6 +98,20 @@ footer {
 footer iframe {
     width: 350px;
     height: 200px;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 0 120px;
+}
+.footerLeft{
+    padding: 20px;
+    justify-content: center;
+}
+.footerLeft p{
+    font-size: 1.2rem;
 }
 .social-icons {
     width: 30px;
