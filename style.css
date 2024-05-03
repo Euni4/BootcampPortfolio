@@ -69,17 +69,16 @@ nav ul li a:hover{
     
     
 }
-.img{
+
    
     
-}
+
 .img img{
     border-radius: 50px;
     box-shadow: 0 0 10px grey;
 }
-.bio p {
-    /* flex: 1; */
-}
+
+
 
 .bio img {
     width: 350px;
@@ -131,9 +130,7 @@ footer iframe {
     
 }
 
-.map {
-    /* flex: 1; */
-}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
