@@ -55,19 +55,23 @@ nav ul li a:hover{
 }
 
 .bio {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 20px 10%;
     align-items: center;
-    justify-content: space-between;
-    gap:100px ;
-    height: 100vh;
+    gap: 100px;
+
+    /* height: 100vh; */
     
 }
 .para{
     
-    padding: 0 10% 0 0;
+    /* padding: 20px; */
     
     
+}
+.img{
+    margin: 0 auto;
 }
 
    
@@ -139,10 +143,10 @@ body {
 
 
 
-.content {
+/* .content {
     width: 50%;
     padding: 20px;
-}
+} */
 
 .image {
     width: 250px;
@@ -150,7 +154,7 @@ body {
 }
 
 .image img {
-    max-width: 100%;
+    max-width: 250px;
     height: auto;
     border-radius: 20px;
 }
@@ -167,6 +171,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 
