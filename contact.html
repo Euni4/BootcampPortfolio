@@ -81,4 +81,16 @@
       </div>
     </footer>
   </body>
+
+  <script>
+    const homeContent = document.querySelector('contactContainer');
+    function renderingHomeContent(){
+      const contactContainer = document.createElement('div');
+      contactContainer.classList.add('contactContainer');
+      contactContainer.innerHTML = `
+      
+      `
+      homeContent.appendChild(contactContainer)
+    }
+  </script>
 </html>

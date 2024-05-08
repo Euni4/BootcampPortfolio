@@ -25,28 +25,8 @@
     </header>
     <div class="container">
       <div class="content">
-        <h2>About Me</h2>
-        <p>
-          My goal is to bridge the gap between design and functionality,
-          ensuring seamless interactions across devices. Constantly exploring
-          emerging technologies and best practices, I strive to stay ahead in
-          technologies ever-evolving field. I thrive in dynamic team setting and
-          always willing to learn others.
-        </p>
-        <p><strong>Here are my experiences:</strong></p>
-        <ul>
-          <li>EDC Teacher at Little Stars</li>
-          <li>Assistant Manager at Tekkie Town</li>
-          <li>Assistant Manager at Superga</li>
-        </ul>
-        <p><strong>My education includes:</strong></p>
-        <ul>
-          <li>
-            Level 4 Certificate in ECD from Tshehang Training and Development
-          </li>
-          <li>N4 Certificate in Marketing Management from Welkom College</li>
-          <li>Grade 12 from Thotagauta High School</li>
-        </ul>
+        
+        
       </div>
       <div class="image">
         <img src="/images/gomi.jpg" alt="Profile Picture" />
@@ -84,4 +64,38 @@
       </div>
     </footer>
   </body>
+
+  <script>
+    const aboutContent = document.querySelector('.container');
+    function renderingaboutContent(){
+      const content = document.createElement('div');
+      content.classList.add('content');
+      content.innerHTML = `
+      <h2>About Me</h2>
+        <p>
+          My goal is to bridge the gap between design and functionality,
+          ensuring seamless interactions across devices. Constantly exploring
+          emerging technologies and best practices, I strive to stay ahead in
+          technologies ever-evolving field. I thrive in dynamic team setting and
+          always willing to learn others.
+        </p>
+        <p><strong>Here are my experiences:</strong></p>
+        <ul>
+          <li>EDC Teacher at Little Stars</li>
+          <li>Assistant Manager at Tekkie Town</li>
+          <li>Assistant Manager at Superga</li>
+        </ul>
+        <p><strong>My education includes:</strong></p>
+        <ul>
+          <li>
+            Level 4 Certificate in ECD from Tshehang Training and Development
+          </li>
+          <li>N4 Certificate in Marketing Management from Welkom College</li>
+          <li>Grade 12 from Thotagauta High School</li>
+        </ul>
+      `
+      aboutContent.appendChild(content);
+    }
+    renderingaboutContent();
+  </script>
 </html>
